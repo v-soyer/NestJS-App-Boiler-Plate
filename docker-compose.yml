@@ -2,7 +2,7 @@ services:
 
   postgres:
     container_name: postgres
-    image: postgres:16.2
+    image: postgres
     volumes:
       - ./data/postgresql:/var/lib/postgresql/data
     ports:

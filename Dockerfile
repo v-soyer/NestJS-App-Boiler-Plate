@@ -1,4 +1,4 @@
-FROM node:22-alpine3.18 AS app_node
+FROM node:24-alpine3.21 AS app_node
 ENV NODE_ENV=development
 
 WORKDIR /srv/app
